@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    background-image: url(./assets/images/daenerys.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    
+
+}
+h1{
+    text-transform: uppercase;
+} 
+.one{
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+.image-two{
+    margin-top: 100px;
+    height: 300px;
+    border: 5px solid white;
+    width: 100%;
+}
