@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/*group selector*/
+h1, h2{
+    color:blueviolet;
+}
+
+/*child selector*/
+.box > p{
+    color: firebrick;
+}
+
+/*descendant selector*/
+.box li{
+    color: blue;
+}
+
+/*chaining selector*/
+li.done{
+    color: seagreen;
+}
+
+/*Combining combiners*/
+ul p.done{ /*combiners used are: descendant, and chaining*/
+    font-size: 0.5rem;
+}
